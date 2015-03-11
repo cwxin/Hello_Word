@@ -14,6 +14,7 @@ int main()
 	printf("%s\n", Name+3);
 	printf("%u\n", Name);
 	printf("%u\n", Name+3);
+	printf("%f\n", cos(2*M_PI));
 	for(i=0;i<50;++i)
 	{
 		printf("%d : %c - %u\n", i,Name[i],Name[i]);
